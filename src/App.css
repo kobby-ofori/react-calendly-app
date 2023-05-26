@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.nav-bar {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ahead {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-input {
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  height: 50px;
+  border-top-right-radius: 23px;
+  border-bottom-right-radius: 23px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#emphasis-blue {
+  color: blue;
+}
+
+.home-row3 {
+  height: 250px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+}
+
+.home-row4 {
+  margin-bottom: 30px;
+}
+
+#list-number {
+  border: 1px solid blue;
+  border-radius: 50%;
+  background-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.individuals-row3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.individuals-row5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: radial-gradient(circle, rgba(211, 211, 211, 0.786), whitesmoke, rgba(245, 222, 179, 0.876), rgba(255, 192, 203, 0.507));
+  height: 250px;
 }
+
+button {
+  border-radius: 15px;
+}
+
+.teams-row3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.teams-row4 {
+  padding-left: 100px;
+}
+
+.teams-row5 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.teams-row6 {
+  margin-bottom: 80px;
+}
+
+.teams-card-btn {
+  border: none;
+  background-color: white;
+  color: blue;
+}
+
+.teams-card-col {
+ display: flex;
+ justify-content: space-between;
+}
+
+.teams-card {
+  border-radius: 15px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+mark {
+  background-color: white;
+  color: blue;
+}
+
+.enterprise-row3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-image: radial-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.937), rgba(0, 0, 0, 0.83), blue);
+  height: 200px;
+  color: white;
+  padding-top: 40px;
+}
+
+.custom-enterprise-card {
+  border-radius: 15px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.enterprise-row5 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.footer2, h5 {
+  font-weight: bolder;  
+}
+
+.company-logos {
+  padding-top: 20px;  
+}
+
+.footer-img {
+  margin-left: 80px;
+}
+
+.company-logos2 {
+  padding-top: 20px;
+  margin-left: 80px;  
+}
+
+.footer-img2 {
+  margin-left: 100px;
+}
+
+
+
